@@ -26,7 +26,7 @@ riscv64-unknown-elf-gcc -o1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
 This converts the code into assembly language.
 
 ```
-riscv64-unknown-elf-objdump -d sum1ton.0 | less
+riscv64-unknown-elf-objdump -d sum1ton.o | less
 ```
 ![riscv assemply](images/d1_sc_4.png)
 
@@ -45,7 +45,7 @@ Next step is to use SPIKE to run the object file we created to get the output of
 ```
 spike pk sum1ton.o
 ```
-![spike command](images/d1_sc_6)
+![spike command](images/d1_sc_6.png)
 
 
 We can also run each instruction manually. For that we fiest enter the manual control using SPIKE with the below command
@@ -67,5 +67,5 @@ reg 0 a2
 Here a is the register.
 
 Below we have used certain SPIKE commands to show the contents in specific registers.
-![spike command](images/d1_sc_7)
+![spike command](images/d1_sc_7.png)
 
