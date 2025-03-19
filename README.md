@@ -69,3 +69,17 @@ Here a is the register.
 Below we have used certain SPIKE commands to show the contents in specific registers.
 ![spike command](images/d1_sc_7.png)
 
+
+### C Code for highest and lowest signed and unsigned numbers
+
+![c code](images/d1_sc_8.png)
+
+Now we run it using the RISCV ISA based compiler
+
+```
+riscv64-unknown-elf-gcc -ofast -mabi=lp64 -march=rv64i -o intg.o integers.c
+```
+```
+spike -pk intg.o
+```
+![output](images/d1_sc_p.png)
