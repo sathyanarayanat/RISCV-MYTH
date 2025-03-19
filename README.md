@@ -39,3 +39,33 @@ riscv64-unknown-elf-gcc -ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
 ![riscv](images/d1_sc_5.png)
 
 We can observe that here, it has taken 12 instructions to run the main fucntion compared to 15 instructions using the -o1 in the complier command.
+
+
+Next step is to use SPIKE to run the object file we created to get the output of the C program. Use  the below command for that
+```
+spike pk sum1ton.o
+```
+![spike command](images/d1_sc_6)
+
+
+We can also run each instruction manually. For that we fiest enter the manual control using SPIKE with the below command
+```
+spike -d pk sum1ton.o
+```
+
+Then we run the program counter til the first instruction using the below command
+```
+until pc 0 100b0
+```
+
+From there we can manually run the program by going through each instruction just by pressing enter in the keyboard.
+
+You can also view the conents in the resgisters using the below command 
+```
+reg 0 a2
+```
+Here a is the register.
+
+Below we have used certain SPIKE commands to show the contents in specific registers.
+![spike command](images/d1_sc_7)
+
