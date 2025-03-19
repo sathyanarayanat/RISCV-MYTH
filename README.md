@@ -82,4 +82,4 @@ riscv64-unknown-elf-gcc -ofast -mabi=lp64 -march=rv64i -o intg.o integers.c
 ```
 spike -pk intg.o
 ```
-![output](images/d1_sc_p.png)
+![output](images/d1_sc_9.png)
