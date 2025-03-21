@@ -99,3 +99,26 @@ Now we run the C code using RISCV ISA with GCC complier.
 ![d2_sc_4](images/d2_sc_4.png)
 
 
+### Converting C code to HEX format
+
+Next, we convert the c code to hex format using the below shell script code and pass it to the picorv32 core for computation.
+For this first nagivate to the labs folder inside the riscv_workshop_collateral folder.
+
+Use the below command to view the script
+```
+cat rv32im.sh
+```
+
+![shell script](images/d2_sc_5.png)
+
+Now use the below commands to execute the script
+
+```
+chmod 777 rv32im.sh
+
+./rv32im.sh
+```
+
+![shell script](images/d2_sc_6.png)
+
+
