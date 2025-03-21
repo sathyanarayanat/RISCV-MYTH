@@ -88,14 +88,14 @@ spike -pk intg.o
 ## DAY-2 - Re-writing the C program using ASM language
 
 First we modify the C code to get the sum of numbers as below.
-![d2_sc_1](images/d2_sc_1)
+![d2_sc_1](images/d2_sc_1.png)
 
 Then we write an Assembly language program for the same code as below.
-![d2_sc_2](images/d2_sc_2)
+![d2_sc_2](images/d2_sc_2.png)
 
 Now we run the C code using RISCV ISA with GCC complier.
-![d2_sc_3](images/d2_sc_3)
+![d2_sc_3](images/d2_sc_3.png)
 
-![d2_sc_4](images/d2_sc_4)
+![d2_sc_4](images/d2_sc_4.png)
 
 
