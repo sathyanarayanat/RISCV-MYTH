@@ -122,3 +122,14 @@ chmod 777 rv32im.sh
 ![shell script](images/d2_sc_6.png)
 
 
+## DAY-3 - Digital Logic with TL-Verilog and Makerchip
+
+#### Introduction
+
+**TL-Verilog** (Transaction-Level Verilog) is an extension of SystemVerilog designed to simplify hardware design by introducing transaction-level modeling concepts directly into RTL development. It helps reduce complexity, improve reusability, and enhance productivity by incorporating pipeline-driven design principles.
+
+**Makerchip** is an online IDE that provides an interactive, cloud-based environment for TL-Verilog-based development by RedWood EDA.
+
+Below is an example of the interface of makerchip platform.
+
+![makerchip ex1](images/d3_sc_1.png)
