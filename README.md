@@ -136,20 +136,20 @@ Below is an example of the interface of makerchip platform.
 
 #### Combinational circuits
 
--A combinational circuit is a type of digital circuit in which the output depends only on the current inputs and not on any past inputs. Basic logic gates such as not gate, or gate , and gate, etc. are examples of combinational cirtuit.
+- A combinational circuit is a type of digital circuit in which the output depends only on the current inputs and not on any past inputs. Basic logic gates such as not gate, or gate , and gate, etc. are examples of combinational cirtuit.
 
 Here we have a TL-verilog example of a not gate
 
 ![Not gate TL verilog](images/d3_sc_2.png)
 
--Next we use vectors using TL-verilog . Below is an example .
+- Next we use vectors using TL-verilog . Below is an example .
 
 ![Vectors TL verilog](images/d3_sc_3.png)
 
--Implementation of a multiple bit MUX using TL-verilog in makerchip platform.
+- Implementation of a multiple bit MUX using TL-verilog in makerchip platform.
 
 ![Vectors TL verilog](images/d3_sc_4.png)
 
--Combinational calculator implementation.
+- Combinational calculator implementation.
 
 ![calculator TL verilog](images/d3_sc_5.png)
