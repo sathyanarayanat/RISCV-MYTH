@@ -164,6 +164,16 @@ A sequential circuit is a type of digital circuit where the output depends not o
 ![32 bit counter using TL-verilog in makerchip](images/d3_sc_6.png)
 
 
-- <ins>**Sequential Calculator**</ins> ( [Sandbox](https://makerchip.com/sandbox/0n5fGhmRZ/0nZh7Qz) )
+- <ins>**Sequential Calculator**</ins> [ [Sandbox](https://makerchip.com/sandbox/0n5fGhmRZ/0nZh7Qz) ]
 
 ![Sequential Calculator using TL-verilog in makerchip](images/d3_sc_7.png)
+
+
+## **Pipelining**
+
+Pipelining is a design technique used to improve performance by dividing a task into multiple stages, where each stage operates in parallel. It allows for higher throughput by processing multiple instructions or data elements simultaneously.
+
+<ins>**lab-1- Recreating the pipelined logic**</ins> [ [Sandbox](https://makerchip.com/sandbox/0G6fJhk2x/0Nxh01B) ]
+
+![Pipelined logic example](images/d3_sc_8.png)
+
