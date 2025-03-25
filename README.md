@@ -3,7 +3,7 @@ workshop on RISCV ISA using OpenSource tools
 
 ## DAY-1 - Introduction to RISC-V ISA and GNU compiler toolchain
 
-#### C-program to compute sum from one to n
+### C-program to compute sum from one to n
 
 Open your linux and nagivate to the ternimal
 
@@ -124,7 +124,7 @@ chmod 777 rv32im.sh
 
 ## DAY-3 - Digital Logic with TL-Verilog and Makerchip
 
-#### Introduction
+### Introduction
 
 **TL-Verilog** (Transaction-Level Verilog) is an extension of SystemVerilog designed to simplify hardware design by introducing transaction-level modeling concepts directly into RTL development. It helps reduce complexity, improve reusability, and enhance productivity by incorporating pipeline-driven design principles.
 
@@ -134,7 +134,7 @@ Below is an example of the interface of makerchip platform.
 
 ![makerchip ex1](images/d3_sc_1.png)
 
-#### Combinational circuits
+### Combinational circuits
 
 - A combinational circuit is a type of digital circuit in which the output depends only on the current inputs and not on any past inputs. Basic logic gates such as not gate, or gate , and gate, etc. are examples of combinational cirtuit.
 
@@ -154,7 +154,7 @@ Here we have a TL-verilog example of a not gate
 
 ![calculator TL verilog](images/d3_sc_5.png)
 
-#### Sequential circuits
+### **Sequential circuits**
 
 A sequential circuit is a type of digital circuit where the output depends not only on the current inputs but also on past inputs (i.e., it has memory)
 
