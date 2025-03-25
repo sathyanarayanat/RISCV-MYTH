@@ -173,7 +173,7 @@ A sequential circuit is a type of digital circuit where the output depends not o
 
 Pipelining is a design technique used to improve performance by dividing a task into multiple stages, where each stage operates in parallel. It allows for higher throughput by processing multiple instructions or data elements simultaneously.
 
-<ins>**lab-1- Recreating the pipelined logic**</ins> [ [Sandbox](https://makerchip.com/sandbox/0G6fJhk2x/0Nxh01B) ]
+<ins>**lab-1- Recreating the pipelined logic**</ins> [ [Sandbox](https://makerchip.com/sandbox/0G6fJhk2x/0P1hKqp) ]
 
 ![Pipelined logic example](images/d3_sc_8.png)
 
