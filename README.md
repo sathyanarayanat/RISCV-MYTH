@@ -122,9 +122,9 @@ chmod 777 rv32im.sh
 ![shell script](images/d2_sc_6.png)
 
 
-## DAY-3 - Digital Logic with TL-Verilog and Makerchip
+# DAY-3 - Digital Logic with TL-Verilog and Makerchip
 
-### Introduction
+## Introduction
 
 **TL-Verilog** (Transaction-Level Verilog) is an extension of SystemVerilog designed to simplify hardware design by introducing transaction-level modeling concepts directly into RTL development. It helps reduce complexity, improve reusability, and enhance productivity by incorporating pipeline-driven design principles.
 
@@ -134,7 +134,7 @@ Below is an example of the interface of makerchip platform.
 
 ![makerchip ex1](images/d3_sc_1.png)
 
-### Combinational circuits
+## Combinational circuits
 
 - A combinational circuit is a type of digital circuit in which the output depends only on the current inputs and not on any past inputs. Basic logic gates such as not gate, or gate , and gate, etc. are examples of combinational cirtuit.
 
@@ -154,11 +154,15 @@ Here we have a TL-verilog example of a not gate
 
 ![calculator TL verilog](images/d3_sc_5.png)
 
-### **Sequential circuits**
+## **Sequential circuits**
 
 A sequential circuit is a type of digital circuit where the output depends not only on the current inputs but also on past inputs (i.e., it has memory)
 
 #### Lab 
-- <ins>**32 bit counter**</ins> [Sandbox](https://makerchip.com/sandbox/0n5fGhmRZ/0nZh7Qz)
+- <ins>**32 bit counter**</ins> [ [Sandbox](https://makerchip.com/sandbox/0n5fGhmRZ/0nZh7Qz) ]
 
 ![32 bit counter using TL-verilog in makerchip](images/d3_sc_6.png)
+
+
+- <ins>**Sequential Calculator**</ins> ( [Sandbox](https://makerchip.com/sandbox/0n5fGhmRZ/0nZh7Qz) )
+
