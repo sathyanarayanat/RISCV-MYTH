@@ -1,9 +1,9 @@
 # RISCV-MYTH
 workshop on RISCV ISA using OpenSource tools
 
-## DAY-1 - Introduction to RISC-V ISA and GNU compiler toolchain
+# DAY-1 - Introduction to RISC-V ISA and GNU compiler toolchain
 
-### C-program to compute sum from one to n
+## C-program to compute sum from one to n
 
 Open your linux and nagivate to the ternimal
 
@@ -70,7 +70,7 @@ Below we have used certain SPIKE commands to show the contents in specific regis
 ![spike command](images/d1_sc_7.png)
 
 
-### C Code for highest and lowest signed and unsigned numbers
+## C Code for highest and lowest signed and unsigned numbers
 
 ![c code](images/d1_sc_8.png)
 
@@ -85,7 +85,7 @@ spike -pk intg.o
 ![output](images/d1_sc_9.png)
 
 
-## DAY-2 - Re-writing the C program using ASM language
+# DAY-2 - Re-writing the C program using ASM language
 
 First we modify the C code to get the sum of numbers as below.
 ![d2_sc_1](images/d2_sc_1.png)
@@ -99,7 +99,7 @@ Now we run the C code using RISCV ISA with GCC complier.
 ![d2_sc_4](images/d2_sc_4.png)
 
 
-### Converting C code to HEX format
+## Converting C code to HEX format
 
 Next, we convert the c code to hex format using the below shell script code and pass it to the picorv32 core for computation.
 For this first nagivate to the labs folder inside the riscv_workshop_collateral folder.
@@ -146,11 +146,11 @@ Here we have a TL-verilog example of a not gate
 
 ![Vectors TL verilog](images/d3_sc_3.png)
 
-- Implementation of a multiple bit MUX using TL-verilog in makerchip platform.
+- Implementation of a multiple bit <ins>**MUX**</ins> using TL-verilog in makerchip platform.
 
 ![Vectors TL verilog](images/d3_sc_4.png)
 
-- Combinational calculator implementation. [Sandbox](https://makerchip.com/sandbox/0zpfRhoYN/0oYhrkB#)
+- <ins>**Combinational calculator implementation.**</ins> [Sandbox](https://makerchip.com/sandbox/0zpfRhoYN/0oYhrkB#)
 
 ![calculator TL verilog](images/d3_sc_5.png)
 
@@ -166,3 +166,4 @@ A sequential circuit is a type of digital circuit where the output depends not o
 
 - <ins>**Sequential Calculator**</ins> ( [Sandbox](https://makerchip.com/sandbox/0n5fGhmRZ/0nZh7Qz) )
 
+![Sequential Calculator using TL-verilog in makerchip](images/d3_sc_7.png)
