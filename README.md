@@ -122,7 +122,7 @@ chmod 777 rv32im.sh
 ![shell script](images/d2_sc_6.png)
 
 
-# DAY-3 - Digital Logic with TL-Verilog and Makerchip
+# DAY 3 - Digital Logic with TL-Verilog and Makerchip
 
 ## Introduction
 
@@ -226,3 +226,19 @@ In TL-Verilog, hierarchy is used to organize complex designs into reusable modul
 <ins>**3-D pythagoras theorem**</ins> [ [Sandbox](https://makerchip.com/sandbox/0mZf5hQJx/00ghG00) ]
 
 ![3-D pythagoras theorem](images/d3_sc_12.png)
+
+# Day 4 - Basic RISC-V CPU micro-architecture
+
+- Now we will start to code the RISC-V cpu core . Below is a rough architecture diagram of the core.
+   - ![CPU core architecture](images/d4_sc_1.png)
+
+- First step is to add a program counter (PC) to the design . Open up the RISC-V lab boiler plate from [here](https://myth.makerchip.com/sandbox?code_url=https:%2F%2Fraw.githubusercontent.com%2Fstevehoover%2FRISC-V_MYTH_Workshop%2Fmaster%2Frisc-v_shell.tlv)
+   - ![PC addition](images/d4_sc_2.png)
+
+
+  
+
+ 
+
+
+
