@@ -130,6 +130,21 @@ chmod 777 rv32im.sh
 
 **Makerchip** is an online IDE that provides an interactive, cloud-based environment for TL-Verilog-based development by RedWood EDA.
 
+# Sample Table with Links
+
+| S.NO | LABS | Sandboxes (Links) |
+|----------|----------|-----------------|
+| 1 | Combinational circuits   | [Output](#combinational-circuits) |
+| 2 | Combinational calculator implementation   | [Sandbox](https://makerchip.com/sandbox/0zpfRhoYN/0oYhrkB#) |
+| 3 | Data 3   | [Stack Overflow](https://stackoverflow.com) |
+| 4 | Data 4   | [Wikipedia](https://www.wikipedia.org) |
+| 5 | Data 5   | [OpenAI](https://openai.com) |
+| 6 | Data 6   | [Reddit](https://www.reddit.com) |
+| 7 | Data 7   | [YouTube](https://www.youtube.com) |
+| 8 | Data 8   | [Twitter](https://twitter.com) |
+| 9 | Data 9   | [LinkedIn](https://www.linkedin.com) |
+
+
 Below is an example of the interface of makerchip platform.
 
 ![makerchip ex1](images/d3_sc_1.png)
@@ -158,7 +173,7 @@ Here we have a TL-verilog example of a not gate
 
 A sequential circuit is a type of digital circuit where the output depends not only on the current inputs but also on past inputs (i.e., it has memory)
 
-#### Lab 
+### Lab 
 - <ins>**32 bit counter**</ins> [ [Sandbox](https://makerchip.com/sandbox/0n5fGhmRZ/0nZh7Qz) ]
 
 ![32 bit counter using TL-verilog in makerchip](images/d3_sc_6.png)
@@ -209,3 +224,5 @@ Validity in TL-Verilog is a mechanism that ensures logic executes only when need
 In TL-Verilog, hierarchy is used to organize complex designs into reusable modules. Unlike traditional Verilog, TL-Verilog naturally supports hierarchical design through nested pipelines and modular structures.
 
 <ins>**3-D pythagoras theorem**</ins> [ [Sandbox](https://makerchip.com/sandbox/0mZf5hQJx/00ghG00 ) ]
+
+![3-D pythagoras theorem](images/d3_sc_12.png)
