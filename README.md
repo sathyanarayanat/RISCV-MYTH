@@ -130,7 +130,7 @@ chmod 777 rv32im.sh
 
 **Makerchip** is an online IDE that provides an interactive, cloud-based environment for TL-Verilog-based development by RedWood EDA.
 
-# Sample Table with Links
+# Table of LABS (DO NOT EDIT THE CODE IN THE SANDBOX LINKS)
 
 | S.NO | LABS | Sandboxes (Links) |
 |----------|----------|-----------------|
