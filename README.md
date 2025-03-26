@@ -177,3 +177,8 @@ Pipelining is a design technique used to improve performance by dividing a task 
 
 ![Pipelined logic example](images/d3_sc_8.png)
 
+
+<ins>**2-Cycle Caculator**</ins> [ [Sandbox](https://makerchip.com/sandbox/0mZf5hQJx/0Rghv83#) ]
+
+![2-Cycle Caculator](images/d3_sc_9.png)
+
