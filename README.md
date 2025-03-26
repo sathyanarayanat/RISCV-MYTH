@@ -199,3 +199,8 @@ Validity in TL-Verilog is a mechanism that ensures logic executes only when need
 ![2-Cycle Caculator using validity](images/d3_sc_10.png)
 
 
+<ins>**Caculator with single value memory**</ins> [ [Sandbox](https://makerchip.com/sandbox/0mZf5hQJx/048hBAm) ]
+
+![Caculator with single value memory](images/d3_sc_11.png)
+
+
