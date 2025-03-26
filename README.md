@@ -204,3 +204,8 @@ Validity in TL-Verilog is a mechanism that ensures logic executes only when need
 ![Caculator with single value memory](images/d3_sc_11.png)
 
 
+## **HIERARCHY**
+
+In TL-Verilog, hierarchy is used to organize complex designs into reusable modules. Unlike traditional Verilog, TL-Verilog naturally supports hierarchical design through nested pipelines and modular structures.
+
+<ins>**3-D pythagoras theorem**</ins> [ [Sandbox](https://makerchip.com/sandbox/0mZf5hQJx/00ghG00 ) ]
