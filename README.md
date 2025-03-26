@@ -169,7 +169,7 @@ A sequential circuit is a type of digital circuit where the output depends not o
 ![Sequential Calculator using TL-verilog in makerchip](images/d3_sc_7.png)
 
 
-## **Pipelining**
+## **PIPELINING**
 
 Pipelining is a design technique used to improve performance by dividing a task into multiple stages, where each stage operates in parallel. It allows for higher throughput by processing multiple instructions or data elements simultaneously.
 
@@ -181,4 +181,21 @@ Pipelining is a design technique used to improve performance by dividing a task 
 <ins>**2-Cycle Caculator**</ins> [ [Sandbox](https://makerchip.com/sandbox/0mZf5hQJx/0Rghv83#) ]
 
 ![2-Cycle Caculator](images/d3_sc_9.png)
+
+## **VALIDITY**
+
+Validity in TL-Verilog is a mechanism that ensures logic executes only when needed. It acts like an implicit enable signal, preventing unnecessary operations and improving efficiency.
+
+
+- Validity controls execution: Logic runs only when the stage is valid.
+
+- Uses ! (validity assertion): Marks a signal or stage as valid only when needed.
+
+- Improves efficiency: Prevents unnecessary computations and reduces power consumption.
+
+
+<ins>**2-Cycle Caculator using validity**</ins> [ [Sandbox](https://makerchip.com/sandbox/0mZf5hQJx/0Z4h5nP) ]
+
+![2-Cycle Caculator using validity](images/d3_sc_10.png)
+
 
