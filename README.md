@@ -134,15 +134,15 @@ chmod 777 rv32im.sh
 
 | S.NO | LABS | Sandboxes (Links) |
 |----------|----------|-----------------|
-| 1 | Combinational circuits   | [Output](#combinational-circuits) |
+| 1 | Combinational circuits (lab till mux)   | [Output](#combinational-circuits) |
 | 2 | Combinational calculator implementation   | [Sandbox](https://makerchip.com/sandbox/0zpfRhoYN/0oYhrkB#) |
-| 3 | Data 3   | [Stack Overflow](https://stackoverflow.com) |
-| 4 | Data 4   | [Wikipedia](https://www.wikipedia.org) |
-| 5 | Data 5   | [OpenAI](https://openai.com) |
-| 6 | Data 6   | [Reddit](https://www.reddit.com) |
-| 7 | Data 7   | [YouTube](https://www.youtube.com) |
-| 8 | Data 8   | [Twitter](https://twitter.com) |
-| 9 | Data 9   | [LinkedIn](https://www.linkedin.com) |
+| 3 | 32 bit counter   | [Sandbox](https://makerchip.com/sandbox/0n5fGhmRZ/0nZh7Qz) |
+| 4 | Sequential Calculator   | [Sandbox](https://makerchip.com/sandbox/0n5fGhmRZ/0nZh7Qz) |
+| 5 | Recreating the pipelined logic   | [Sandbox](https://makerchip.com/sandbox/0G6fJhk2x/0P1hKqp) |
+| 6 | 2-Cycle Caculator   | [Sandbox](https://makerchip.com/sandbox/0mZf5hQJx/0Rghv83#) |
+| 7 | 2-Cycle Caculator using validity   | [Sandbox](https://makerchip.com/sandbox/0mZf5hQJx/0Z4h5nP) |
+| 8 | Caculator with single value memory   | [Sandbox](https://makerchip.com/sandbox/0mZf5hQJx/048hBAm) |
+| 9 | 3-D pythagoras theorem   | [Sandbox](https://makerchip.com/sandbox/0mZf5hQJx/00ghG00) |
 
 
 Below is an example of the interface of makerchip platform.
@@ -165,7 +165,7 @@ Here we have a TL-verilog example of a not gate
 
 ![Vectors TL verilog](images/d3_sc_4.png)
 
-- <ins>**Combinational calculator implementation.**</ins> [Sandbox](https://makerchip.com/sandbox/0zpfRhoYN/0oYhrkB#)
+- <ins>**Combinational calculator implementation**</ins> [Sandbox](https://makerchip.com/sandbox/0zpfRhoYN/0oYhrkB#)
 
 ![calculator TL verilog](images/d3_sc_5.png)
 
@@ -193,9 +193,9 @@ Pipelining is a design technique used to improve performance by dividing a task 
 ![Pipelined logic example](images/d3_sc_8.png)
 
 
-<ins>**2-Cycle Caculator**</ins> [ [Sandbox](https://makerchip.com/sandbox/0mZf5hQJx/0Rghv83#) ]
+<ins>**2-Cycle Calculator**</ins> [ [Sandbox](https://makerchip.com/sandbox/0mZf5hQJx/0Rghv83#) ]
 
-![2-Cycle Caculator](images/d3_sc_9.png)
+![2-Cycle Calculator](images/d3_sc_9.png)
 
 ## **VALIDITY**
 
@@ -223,6 +223,6 @@ Validity in TL-Verilog is a mechanism that ensures logic executes only when need
 
 In TL-Verilog, hierarchy is used to organize complex designs into reusable modules. Unlike traditional Verilog, TL-Verilog naturally supports hierarchical design through nested pipelines and modular structures.
 
-<ins>**3-D pythagoras theorem**</ins> [ [Sandbox](https://makerchip.com/sandbox/0mZf5hQJx/00ghG00 ) ]
+<ins>**3-D pythagoras theorem**</ins> [ [Sandbox](https://makerchip.com/sandbox/0mZf5hQJx/00ghG00) ]
 
 ![3-D pythagoras theorem](images/d3_sc_12.png)
