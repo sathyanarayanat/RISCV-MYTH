@@ -255,7 +255,17 @@ In TL-Verilog, hierarchy is used to organize complex designs into reusable modul
    - ![Instruction type table](images/d4_sc_4.png)
    - ![Instruction type defined](images/d4_sc_5.png)
  
+- We now define instruction type and how each instruction accesses the immediate values
+  - ![Instruction type access](images/d4_sc_6.png)
 
+- Next we define decode logic for registers
+   - ![decode logic](images/d4_sc_7.png)
+
+- We write valid conditions for accessing the registers
+   - ![valid conditions](images/d4_sc_8.png)
+
+- We now define valid condition for some specific instructions
+   - ![valid conditions](images/d4_sc_9.png)
 
 
 # Day 5 - Complete Pipelined RISC-V CPU micro-architecture
