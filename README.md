@@ -251,7 +251,9 @@ In TL-Verilog, hierarchy is used to organize complex designs into reusable modul
 - Next Step is enable the pre-defined **imem** blocks and assign the signals respectively. After that, your blocks should look like this.
    - ![Adding imem](images/d4_sc_3.png)
   
-
+- We now define the instruction type accordingly using the below instruction type table.
+   - ![Instruction type table](images/d4_sc_4.png)
+   - ![Instruction type defined](images/d4_sc_5.png)
  
 
 
