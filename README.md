@@ -7,21 +7,21 @@ workshop on RISCV ISA using OpenSource tools
 
 Open your linux and nagivate to the ternimal
 
-Open your prefered text editor and write the C program code to compute the sum of N numbers.
+- Open your prefered text editor and write the C program code to compute the sum of N numbers.
 
-![code](images/d1_sc_1.png)
+   - ![code](images/d1_sc_1.png)
 
-Now, Run it using GCC command
+- Now, Run it using GCC command
 
-![code](images/d1_sc_2.png)
+  - ![code](images/d1_sc_2.png)
 
-Next step is to use the RISCV complier run the c code and look at the assembly code.
-First we use the below command to run the code
-
+- Next step is to use the RISCV complier run the c code and look at the assembly code.
+- First we use the below command to run the code . 
+  
 ```
 riscv64-unknown-elf-gcc -o1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
 ```
-![riscv complier command](images/d1_sc_3.png)
+   - ![riscv complier command](images/d1_sc_3.png)
 
 This converts the code into assembly language.
 
@@ -235,7 +235,8 @@ In TL-Verilog, hierarchy is used to organize complex designs into reusable modul
 - First step is to add a program counter (PC) to the design . Open up the RISC-V lab boiler plate from [here](https://myth.makerchip.com/sandbox?code_url=https:%2F%2Fraw.githubusercontent.com%2Fstevehoover%2FRISC-V_MYTH_Workshop%2Fmaster%2Frisc-v_shell.tlv)
    - ![PC addition](images/d4_sc_2.png)
 
-
+- Next Step is enable the pre-defined **imem** blocks and assign the signals respectively. After that, your blocks should look like this.
+   - ![Adding imem](images/d4_sc_3.png)
   
 
  
