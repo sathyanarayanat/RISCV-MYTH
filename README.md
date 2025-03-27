@@ -304,5 +304,12 @@ In TL-Verilog, hierarchy is used to organize complex designs into reusable modul
   
 ### Solutions to Pipeline Hazards
 
+- Register File Bypass To Address Rd-After-Wr Hazard
+   - ![partition block](images/d5_sc_5.png)
+
+- Branches To Correct The Branch Target Path
+   - ![partition block](images/d5_sc_6.png)
+
+- 
 ### Load/Store Instructions and Completing RISC-V CPU
 
