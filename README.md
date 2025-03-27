@@ -272,5 +272,25 @@ In TL-Verilog, hierarchy is used to organize complex designs into reusable modul
  
 - Output is verified using the generated waveform
    - ![Output waveform](images/d4_sc_11.png)
-  
+
+- Finally, we write a test bench to check the summation and assign it to <ins>**passed**</ins> .
+   - ![test bench block](images/d4_sc_12.png)
+
+     
 # Day 5 - Complete Pipelined RISC-V CPU micro-architecture
+
+## Table of Contents
+
+| S. No | Topic |
+|------|----------------------------|
+| 1    | [Pipelining the CPU](#pipelining-the-cpu) |
+| 2    | [Solutions to Pipeline Hazards](#solutions-to-pipeline-hazards) |
+| 3    | [Load/Store Instructions and Completing RISC-V CPU](#loadstore-instructions-and-completing-risc-v-cpu) |
+
+
+### Pipelining the CPU
+
+### Solutions to Pipeline Hazards
+
+### Load/Store Instructions and Completing RISC-V CPU
+
