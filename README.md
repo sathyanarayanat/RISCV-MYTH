@@ -267,5 +267,10 @@ In TL-Verilog, hierarchy is used to organize complex designs into reusable modul
 - We now define valid condition for some specific instructions
    - ![valid conditions](images/d4_sc_9.png)
 
-
+- **Next we add the control logic as mentioned by in the labs step by step . After completing all the labs in day-4 , we end up with the below block**
+   - ![complete cpu block](images/d4_sc_10.png)
+ 
+- Output is verified using the generated waveform
+   - ![Output waveform](images/d4_sc_11.png)
+  
 # Day 5 - Complete Pipelined RISC-V CPU micro-architecture
