@@ -240,7 +240,7 @@ In TL-Verilog, hierarchy is used to organize complex designs into reusable modul
 
   - ![3-D pythagoras theorem](images/d3_sc_12.png)
 
-# Day 4 - Basic RISC-V CPU micro-architecture
+# Day 4 - Basic RISC-V CPU micro-architecture [[SANDBOX]()]
 
 - Now we will start to code the RISC-V cpu core . Below is a rough architecture diagram of the core.
    - ![CPU core architecture](images/d4_sc_1.png)
