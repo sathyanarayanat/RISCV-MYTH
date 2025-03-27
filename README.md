@@ -290,6 +290,18 @@ In TL-Verilog, hierarchy is used to organize complex designs into reusable modul
 
 ### Pipelining the CPU
 
+- To create a 3-cycle valid signal
+  - ![3-cycle valid signal](images/d5_sc_1.png)
+
+- Next we make sure that invalid instruction doesn't affect the write RF . So we write only when valid is enabled.
+   - We introduce 3 cycle check in PC and complete other instructions as mentioned in the lab.
+   - ![3-cycle valid signal 2 ](images/d5_sc_2.png)
+
+- Modify 3-Cycle RISC-V To Distribute Logic
+  - we start partition logic as per below diagram
+  - ![partition block](images/d5_sc_3.png)
+  - ![partition block](images/d5_sc_4.png)
+  
 ### Solutions to Pipeline Hazards
 
 ### Load/Store Instructions and Completing RISC-V CPU
