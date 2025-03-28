@@ -145,6 +145,8 @@ chmod 777 rv32im.sh
 
 # Table of LABS (DO NOT EDIT THE CODE IN THE SANDBOX LINKS)
 
+- Note : I have used the default template instead of the calculator template. So, the visualization might be commented out sometimes.
+
 | S.NO | LABS | Sandboxes (Links) |
 |----------|----------|-----------------|
 | 1 | Combinational circuits (lab till mux)   | [Output](#combinational-circuits) |
@@ -286,7 +288,7 @@ In TL-Verilog, hierarchy is used to organize complex designs into reusable modul
 |------|----------------------------|---------|
 | 1    | [Pipelining the CPU](#pipelining-the-cpu) | [Sandbox](https://myth.makerchip.com/sandbox/0zpfRho8J/0Z4h522) |
 | 2    | [Solutions to Pipeline Hazards](#solutions-to-pipeline-hazards) | [Sandbox](https://myth.makerchip.com/sandbox/02kfkh971/01jhMzN) |
-| 3    | [Load/Store Instructions and Completing RISC-V CPU](#loadstore-instructions-and-completing-risc-v-cpu) | [Sandbox](#sandbox) |
+| 3    | [Load/Store Instructions and Completing RISC-V CPU](#loadstore-instructions-and-completing-risc-v-cpu) | [Sandbox](https://makerchip.com/sandbox/031fmhQB2/0j2hn5B)|
 
 
 ### Pipelining the CPU
@@ -318,3 +320,13 @@ In TL-Verilog, hierarchy is used to organize complex designs into reusable modul
    - ![ALU](images/d5_sc_8.png)
 ### Load/Store Instructions and Completing RISC-V CPU
 
+- After following the instructions to the lab in the 3rd module, we complete our RISC-V CPU core design .
+
+- THE COMPLETE CAPSTONE PROJECT [SANDBOX](https://makerchip.com/sandbox/031fmhQB2/0j2hn5B)
+
+# REFERENCE
+- Steve Hoover's risc-v MYTH repository [[Github](https://github.com/stevehoover/RISC-V_MYTH_Workshop)]
+
+## Note of thanks
+- I appreciate [Vlsi system design](https://www.vlsisystemdesign.com/) and [Redwood EDA](https://www.redwoodeda.com) For Conducting This workshop.
+- A Special note of thanks for the instructors - [Steve Hoover](https://www.linkedin.com/in/steve-hoover-a44b607/) and [kunal ghosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/)
