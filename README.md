@@ -285,7 +285,7 @@ In TL-Verilog, hierarchy is used to organize complex designs into reusable modul
 | S. No | Topic | Sandbox |
 |------|----------------------------|---------|
 | 1    | [Pipelining the CPU](#pipelining-the-cpu) | [Sandbox](https://myth.makerchip.com/sandbox/0zpfRho8J/0Z4h522) |
-| 2    | [Solutions to Pipeline Hazards](#solutions-to-pipeline-hazards) | [Sandbox](https://myth.makerchip.com/sandbox/05yf0hx5x/0g5hApO) |
+| 2    | [Solutions to Pipeline Hazards](#solutions-to-pipeline-hazards) | [Sandbox](https://myth.makerchip.com/sandbox/02kfkh971/0Rghvm4) |
 | 3    | [Load/Store Instructions and Completing RISC-V CPU](#loadstore-instructions-and-completing-risc-v-cpu) | [Sandbox](#sandbox) |
 
 
