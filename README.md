@@ -152,7 +152,7 @@ chmod 777 rv32im.sh
 | 1 | Combinational circuits (lab till mux)   | [Output](#combinational-circuits) |
 | 2 | Combinational calculator implementation   | [Sandbox](https://makerchip.com/sandbox/0zpfRhoYN/0oYhrkB#) |
 | 3 | 32 bit counter   | [Sandbox](https://makerchip.com/sandbox/0n5fGhmRZ/0nZh7Qz) |
-| 4 | Sequential Calculator   | [Sandbox](https://makerchip.com/sandbox/0n5fGhmRZ/0nZh7Qz) |
+| 4 | Sequential Calculator   | [Sandbox](https://makerchip.com/sandbox/0n5fGhmRZ/0oYhrJ7) |
 | 5 | Recreating the pipelined logic   | [Sandbox](https://makerchip.com/sandbox/0G6fJhk2x/0P1hKqp) |
 | 6 | 2-Cycle Caculator   | [Sandbox](https://makerchip.com/sandbox/0mZf5hQJx/0Rghv83#) |
 | 7 | 2-Cycle Caculator using validity   | [Sandbox](https://makerchip.com/sandbox/0mZf5hQJx/0Z4h5nP) |
