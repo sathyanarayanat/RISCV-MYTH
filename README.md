@@ -10,7 +10,7 @@ RISC-V MYTH workshop is offered by [Vlsi system design](https://www.vlsisystemde
 | 1 | [Introduction to RISC-V ISA and GNU compiler toolchain](#day-1---introduction-to-risc-v-isa-and-gnu-compiler-toolchain) |
 | 2 | [Re-writing the C program using ASM language](#day-2---re-writing-the-c-program-using-asm-language) |
 | 3 | [Digital Logic with TL-Verilog and Makerchip](#day-3---digital-logic-with-tl-verilog-and-makerchip) |
-| 4 | [Basic RISC-V CPU micro-architecture](#day-4---basic-risc-v-cpu-micro-architecture) |
+| 4 | [Day 4 - Basic RISC-V CPU Micro-Architecture](#day-4---basic-risc-v-cpu-micro-architecture) [[SANDBOX](#sandbox)] |
 | 5 | [Complete Pipelined RISC-V CPU micro-architecture](#day-5---complete-pipelined-risc-v-cpu-micro-architecture) |
 
 
@@ -240,7 +240,7 @@ In TL-Verilog, hierarchy is used to organize complex designs into reusable modul
 
   - ![3-D pythagoras theorem](images/d3_sc_12.png)
 
-# Day 4 - Basic RISC-V CPU micro-architecture [[SANDBOX]()]
+# Day 4 - Basic RISC-V CPU micro-architecture [[SANDBOX](https://myth.makerchip.com/sandbox/0zpfRho8J/0P1hKMJ)]
 
 - Now we will start to code the RISC-V cpu core . Below is a rough architecture diagram of the core.
    - ![CPU core architecture](images/d4_sc_1.png)
@@ -281,11 +281,11 @@ In TL-Verilog, hierarchy is used to organize complex designs into reusable modul
 
 ## Table of Contents
 
-| S. No | Topic |
-|------|----------------------------|
-| 1    | [Pipelining the CPU](#pipelining-the-cpu) |
-| 2    | [Solutions to Pipeline Hazards](#solutions-to-pipeline-hazards) |
-| 3    | [Load/Store Instructions and Completing RISC-V CPU](#loadstore-instructions-and-completing-risc-v-cpu) |
+| S. No | Topic | Sandbox |
+|------|----------------------------|---------|
+| 1    | [Pipelining the CPU](#pipelining-the-cpu) | [Sandbox](https://myth.makerchip.com/sandbox/0zpfRho8J/0Z4h522) |
+| 2    | [Solutions to Pipeline Hazards](#solutions-to-pipeline-hazards) | [Sandbox](https://myth.makerchip.com/sandbox/05yf0hx5x/0g5hApO) |
+| 3    | [Load/Store Instructions and Completing RISC-V CPU](#loadstore-instructions-and-completing-risc-v-cpu) | [Sandbox](#sandbox) |
 
 
 ### Pipelining the CPU
@@ -310,6 +310,10 @@ In TL-Verilog, hierarchy is used to organize complex designs into reusable modul
 - Branches To Correct The Branch Target Path
    - ![partition block](images/d5_sc_6.png)
 
-- 
+- To Complete Instruction Decode Except Fence, Ecall, Ebreak
+   - ![Instructions](images/d5_sc_7.png)
+
+- To Code Complete ALU
+   - ![ALU](images/d5_sc_8.png)
 ### Load/Store Instructions and Completing RISC-V CPU
 
